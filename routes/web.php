@@ -17,17 +17,7 @@ use App\Http\Controllers\ContactController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/send-mail', function () {
-   
-    $details = [
-        'title' => 'Mail from ItSolutionStuff.com',
-        'body' => 'This is for testing email using smtp'
-    ];
-   
-    Mail::to('nakourimayssa@gmail.com')->send(new \App\Mail\MyTestMail($details));
-   
-    dd("Email is Sent.");
-});
+
 
 Route::get('/contact', [ContactController::class, 'contact'] ) ; 
 Route::post('/contact/save', [ContactController::class, 'save'] ) ; 

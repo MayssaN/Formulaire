@@ -153,13 +153,10 @@
  
      <!-- Map Begin -->
      <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2629.6286912054734!2d2.0348230767520032!3d48.76988670693033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e68125ba04a703%3A0x10ca1df4f0a0687d!2sMairie%20de%20Montigny-le-Bretonneux!5e0!3m2!1sfr!2stn!4v1707211667292!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2629.6286950777453!2d2.0325270917560267!3d48.76988663299059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e68125ba04a703%3A0x10ca1df4f0a0687d!2sMairie%20de%20Montigny-le-Bretonneux!5e0!3m2!1sfr!2stn!4v1707217879968!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
     <!-- Map End -->
 
-   <!-- 
-   
- -->
+
  
 
 
