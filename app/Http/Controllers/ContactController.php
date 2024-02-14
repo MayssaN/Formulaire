@@ -31,6 +31,7 @@ class ContactController extends Controller
                 'message' =>'required' ,
                 'telephone' =>'required',
             ])  ;*/
+      
 
            $data = [
 
@@ -39,6 +40,9 @@ class ContactController extends Controller
                       'adresse' =>$request->adresse,
                       'telephone' =>$request->telephone,
                       'message' =>$request->message,
+                      'countries' =>$request->countries,
+
+                  
 
 
            ];

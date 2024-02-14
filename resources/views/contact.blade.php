@@ -24,7 +24,7 @@
     <link rel="stylesheet" href=" {{ asset('mainassets/css/owl.carousel.min.css') }}" type="text/css">
     <link rel="stylesheet" href=" {{ asset('mainassets/css/slicknav.min.css') }}" type="text/css">
     <link rel="stylesheet" href=" {{ asset('mainassets/css/style.css') }}" type="text/css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag@2.0.1/dist/css/multi-select-tag.css">
     <style type="text/css">
         #map {
           height: 400px;
@@ -231,9 +231,19 @@
                                     <input type="tel" required name="telephone" placeholder="Télépphone*">
                                 </div>
 
+                                <select name="countries" id="countries" multiple="multiple">
+                                    <option value="Afghanistan">Afghanistan</option>
+                                    <option value="Australia">Australia</option>
+                                    <option value="Germany">Germany</option>
+                                    <option value="Canada">Canada</option>
+                                    <option value="Russia">Russia</option>
+                                </select>
                                 <div class="col-lg-12">
                                     <textarea placeholder="Message" required name="message"></textarea>
                                 </div>
+
+
+
 
                                 <div class="col-lg-12">
                                     <button type="submit" class="site-btn">Send Message</button>
@@ -334,6 +344,11 @@
     <!-- Search End -->
 
     <!-- Js Plugins -->
+  
+    <script src="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag@2.0.1/dist/js/multi-select-tag.js"></script>
+    <script>
+        new MultiSelectTag('countries')  // id
+    </script>
     <script src="{{ asset('mainassets/js/jquery-3.3.1.min.js') }}"></script>
     <script src="{{ asset('mainassets/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('mainassets/js/jquery.nice-select.min.js') }}"></script>
